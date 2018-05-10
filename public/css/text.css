@@ -1,0 +1,20 @@
+* {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  color: #222;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.search-form h2 {
+  font-size: 34px;
+}

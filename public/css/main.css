@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:700|Roboto+Slab:200,400,700&subset=cyrillic');
+@import url('text.css');
+@import url('search-form.css');
+@import url('city.css');
+
+* {
+  margin: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 95px);
+  grid-column-gap: 15px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+header > h1 {
+  grid-column: span 4;
+  text-align: center;
+}
+
+header > h2 {
+  grid-column: span 4;
+  display: grid;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.back {
+  grid-column: span 4;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 95px);
+  grid-gap: 20px 15px;
+  justify-content: center;
+}
+
+main > div {
+  grid-column: span 4;
+  height: 250px;
+}

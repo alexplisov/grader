@@ -1,0 +1,56 @@
+.search-form {
+  display: grid;
+  grid-column: repeat(4, 95px);
+  grid-column-gap: 15px;
+  align-content: space-between;
+}
+
+.search-form > div {
+  grid-column: span 4;
+  grid-row: 1;
+}
+
+.search-form h2, .search-form h3 {
+  grid-column: span 4;
+  font-family: "PT Sans";
+}
+
+.search-form .input-search {
+  grid-column: span 4;
+  grid-row: 2;
+}
+
+.search-form .btn-search {
+  grid-column: span 3;
+  grid-row: 3;
+}
+
+.search-form .btn-options {
+  max-width: 95px;
+  box-sizing: content-box;
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.search-form > input, .search-form > button {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.search-form > input {
+  padding: 0 1em;
+  font-size: 24px;
+  background-color: #F2F2F2;
+}
+
+.search-form > button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #EB5757;
+  color: white;
+  cursor: pointer;
+}

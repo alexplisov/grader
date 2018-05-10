@@ -1,0 +1,22 @@
+{
+  "name": "grader",
+  "version": "1.0.0",
+  "description": "Russian cities catalog with rating and other stats.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexplisov/grader.git"
+  },
+  "author": "alexplisov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alexplisov/grader/issues"
+  },
+  "homepage": "https://github.com/alexplisov/grader#readme",
+  "dependencies": {
+    "mongodb": "^3.0.7"
+  }
+}
